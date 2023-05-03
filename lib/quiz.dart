@@ -18,8 +18,8 @@ class _QuizState extends State<Quiz> {
   var activeScreen = 'splash-screen';
 
   void switchScreen() {
-    selectedAnswers = [];
     setState(() {
+      selectedAnswers = [];
       activeScreen = 'questions-screen';
     });
   }
