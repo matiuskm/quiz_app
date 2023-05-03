@@ -67,9 +67,7 @@ class ResultScreen extends StatelessWidget {
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.blueGrey,
               ),
-              onPressed: () {
-                restartQuiz();
-              },
+              onPressed: () => restartQuiz(),
             ),
           ],
         ),

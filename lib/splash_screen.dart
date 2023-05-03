@@ -38,9 +38,7 @@ class SplashScreen extends StatelessWidget {
               Icons.arrow_right_alt,
               size: 24.0,
             ),
-            onPressed: () {
-              startQuiz();
-            },
+            onPressed: () => startQuiz(),
             label: const Text("Start Quiz"),
           ),
         ],
